@@ -1,0 +1,1 @@
+from sys import argv; from_file = open(argv[1]).read(); out_file = open(argv[2], 'w'); out_file.write(from_file)
